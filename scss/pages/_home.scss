@@ -2,7 +2,7 @@ body {
     
     .main {
         .contenedor__imagen {
-            border: 1px solid blue;
+            // border: 1px solid blue;
             height: 150px;
             overflow: hidden;
             img {
@@ -39,6 +39,9 @@ body {
                         color: #611f39;
                     }
                     .tiempo__contenedor {
+                        .fa-check {
+                            color: #80533d;
+                        }
                         // border: 1px solid red;
                         display: flex;
                         align-items: center;
@@ -52,6 +55,95 @@ body {
                             }
                         }
                     }
+                }
+                .ingredientes {
+                    // border: 1px solid blue;
+                    padding: 22px 0;
+                    border-bottom: 1px solid black;
+                    .ingredientes__titulo {
+                        // border: 1px solid red;
+                        font-size: 27px;
+                        color: #80533d;
+                        padding-bottom: 20px;
+                    }
+                    .ingredientes__contenido {
+                        // border: 1px solid green;
+                        display: flex;
+                        align-items: center;
+                        padding: 5px 0;
+                        .fa-circle-check {
+                            // border: 1px solid red;
+                            padding: 0 5px;
+                            color: #80533d;
+                        }
+                        p {
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+            .instrucciones {
+                // border: 1px solid red;
+                padding: 10px 0;
+                border-bottom: 1px solid black;
+                .instrucciones__titulo {
+                    // border: 1px solid red;
+                    font-size: 28px;
+                    color: #80533d;
+                }
+                .instrucciones__instruccion {
+                    // border: 1px solid blue;
+                    display: flex;
+                    align-items: flex-start;
+                    padding: 5px 0;
+                    .instrucciones__numero {
+                        // border: 1px solid green;
+                        font-size: 19px;
+                        color: #80533d;
+                    }
+                    .instrucciones__detalle {
+                        // border: 1px solid red;
+                        font-size: 15px;
+                        padding: 0 10px;
+                        span {
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .nutricion {
+                // border: 1px solid red;
+                .nutricion__titulo {
+                    font-size: 28px;
+                    color: #80533d;
+                    padding: 20px 0;
+                }
+                .nutricion__descripcion {
+                    // border: 1px solid red;
+                    font-size: 15px;
+                    padding: 10px 0;
+                }
+                .nutricion__tabla {
+                    // border: 1px solid blue;
+                    .nutricion__especificacion {
+                        // border: 1px solid green;
+                        display: flex;
+                        justify-content: space-around;
+                        padding-right: 20px;
+                        padding: 8px 0;
+                        p {
+                            width: 70px;
+                        }
+                        .nutricion__color {
+                            color: #80533d;
+                            font-weight: 650;
+                        }
+                    }
+                    .borde {
+                        border-bottom: 1px solid black;
+                    }
+
+
                 }
             }
         }

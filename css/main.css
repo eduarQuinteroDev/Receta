@@ -11,6 +11,11 @@ h1 {
   font-weight: 800;
 }
 
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+}
+
 h3 {
   font-family: "Poppins", sans-serif;
 }
@@ -20,7 +25,6 @@ p {
 }
 
 body .main .contenedor__imagen {
-  border: 1px solid blue;
   height: 150px;
   overflow: hidden;
 }
@@ -53,12 +57,85 @@ body .main .receta .preparacion-contenedor .tiempo .tiempo__contenedor {
   align-items: center;
   padding: 5px 7px;
 }
+body .main .receta .preparacion-contenedor .tiempo .tiempo__contenedor .fa-check {
+  color: #80533d;
+}
 body .main .receta .preparacion-contenedor .tiempo .tiempo__contenedor p {
   font-size: 14px;
   padding: 0 10px;
 }
 body .main .receta .preparacion-contenedor .tiempo .tiempo__contenedor p span {
   font-weight: 600;
+}
+body .main .receta .preparacion-contenedor .ingredientes {
+  padding: 22px 0;
+  border-bottom: 1px solid black;
+}
+body .main .receta .preparacion-contenedor .ingredientes .ingredientes__titulo {
+  font-size: 27px;
+  color: #80533d;
+  padding-bottom: 20px;
+}
+body .main .receta .preparacion-contenedor .ingredientes .ingredientes__contenido {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+body .main .receta .preparacion-contenedor .ingredientes .ingredientes__contenido .fa-circle-check {
+  padding: 0 5px;
+  color: #80533d;
+}
+body .main .receta .preparacion-contenedor .ingredientes .ingredientes__contenido p {
+  padding: 0 10px;
+}
+body .main .receta .instrucciones {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+body .main .receta .instrucciones .instrucciones__titulo {
+  font-size: 28px;
+  color: #80533d;
+}
+body .main .receta .instrucciones .instrucciones__instruccion {
+  display: flex;
+  align-items: flex-start;
+  padding: 5px 0;
+}
+body .main .receta .instrucciones .instrucciones__instruccion .instrucciones__numero {
+  font-size: 19px;
+  color: #80533d;
+}
+body .main .receta .instrucciones .instrucciones__instruccion .instrucciones__detalle {
+  font-size: 15px;
+  padding: 0 10px;
+}
+body .main .receta .instrucciones .instrucciones__instruccion .instrucciones__detalle span {
+  font-weight: 600;
+}
+body .main .receta .nutricion .nutricion__titulo {
+  font-size: 28px;
+  color: #80533d;
+  padding: 20px 0;
+}
+body .main .receta .nutricion .nutricion__descripcion {
+  font-size: 15px;
+  padding: 10px 0;
+}
+body .main .receta .nutricion .nutricion__tabla .nutricion__especificacion {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 20px;
+  padding: 8px 0;
+}
+body .main .receta .nutricion .nutricion__tabla .nutricion__especificacion p {
+  width: 70px;
+}
+body .main .receta .nutricion .nutricion__tabla .nutricion__especificacion .nutricion__color {
+  color: #80533d;
+  font-weight: 650;
+}
+body .main .receta .nutricion .nutricion__tabla .borde {
+  border-bottom: 1px solid black;
 }
 
 /*# sourceMappingURL=main.css.map */
