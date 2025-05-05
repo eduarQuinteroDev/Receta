@@ -34,7 +34,6 @@ body .main .contenedor__imagen img {
   object-fit: cover;
 }
 body .main .receta {
-  border: 1px solid red;
   padding: 20px;
 }
 body .main .receta .descripcion .descripcion__contenido {
@@ -136,6 +135,26 @@ body .main .receta .nutricion .nutricion__tabla .nutricion__especificacion .nutr
 }
 body .main .receta .nutricion .nutricion__tabla .borde {
   border-bottom: 1px solid black;
+}
+
+@media all and (min-width: 480px) {
+  body {
+    background-color: #f3e6d8;
+    margin: 0;
+    padding: 0;
+  }
+  body .main {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    margin: 60px auto;
+  }
+  body .main .contenedor__imagen {
+    border-radius: 10px 10px 0 0;
+  }
+  body .main .contenedor__imagen img {
+    border-radius: 10px 10px 0 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
