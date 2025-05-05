@@ -16,7 +16,7 @@ Este proyecto esta orientado a mostrar una receta simple, se muestran las seccio
 </p>
 
 <h2>Vista Escritorio</h2>
-<img src="img/">
+<img src="img/vista-Desktop.png">
 
 <h2>Vista Móvil</h2>
 <img src="img/mobile.png">
